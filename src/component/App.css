@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#root{
+    width:100%;
+    height: 100%;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+.App{
+    width:100%;
+    height: 100%;
+    /* background: darkkhaki; */
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width:100%;
+    height: 36px;
+    background: salmon;
+}
+.App main{
+    flex:1;
+    overflow: auto;
+  
+}
+nav{
+    flex:1;
+    height: 50px;
+    line-height: 50px;
+    background: forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.active{
+    color:black !important
+}
+footer{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    background: sandybrown;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom:0
+}
+a{
+    color:black
+}
+.App main .content {
+    flex: 1;
+    width:100%;
+    overflow: auto;
+  }
+ 
+   .App main .content .shoop .left {
+     width: 30%;
+     height: 100%;
+     overflow: auto;
+   }
+   
+   .App main .content .shoop .right {
+     flex: 1;
+     overflow: auto;
+   }
+ 
+   .App main .content .shoop{
+    width:100%;
+    height: 500px;
+    display: flex;
+   
+   }
+   .set{
+       width:100%;
+       height: 60px;
+       line-height: 60px;
+       text-align: center;
+       background: darksalmon;
+   }
+   
